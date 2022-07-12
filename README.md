@@ -13,7 +13,7 @@ brew install --cask mkim797/homebrew-pcloud-m1/pcloud-m1
 1. Get key
 
 ```bash
-echo `$(curl -s https://www.pcloud.com/how-to-install-pcloud-drive-mac-os-m1.html\?download\=macm1) | grep "'Mac M1':" | sed "s/[ ,:']*//g;s/MacM1//g" | tr -d '\t')`
+echo $(curl -s https://www.pcloud.com/how-to-install-pcloud-drive-mac-os-m1.html\?download\=macm1 | grep "'Mac M1':" | sed "s/[ ,:']*//g;s/MacM1//g" | tr -d '\t')
 ```
 
 2. Download latest pkg Version from https://www.pcloud.com/de/how-to-install-pcloud-drive-mac-os.html
