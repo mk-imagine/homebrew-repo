@@ -5,7 +5,7 @@ A tap for homebrew to install pCloud Drive on Mac.
 ## Install
 
 ```bash
-brew install --cask mkim/homebrew-pcloud-m1/pcloud-m1
+brew install --cask mkim797/homebrew-pcloud-m1/pcloud-m1
 ```
 
 ## Updating
