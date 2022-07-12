@@ -1,4 +1,4 @@
-cask 'pcloud-drive-M1' do
+cask 'pcloud-drive-m1' do
   version '3.11.6'
   sha256 '543d580d94bd9869d1c457563102132efa8db2205f1ecab98de92c5e65ff4e9d'
 
