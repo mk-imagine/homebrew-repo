@@ -17,7 +17,7 @@ cask 'pcloud-drive-m1' do
 
   depends_on cask: 'macfuse'
 
-  pkg 'pCloud Drive 3.11.6 macFUSE'
+  pkg 'pCloud Drive 3.11.6 macFUSE.pkg'
 
   uninstall quit:    'com.pcloud.pcloud.macos',
             pkgutil: 'com.mobileinno.pkg.pCloudDrive'
