@@ -1,6 +1,6 @@
 cask 'pcloud-drive' do
   name 'pCloud Drive'
-  desc 'pCloud '
+  desc 'Utilities to mount and manage pCloud drive on local computer'
   homepage 'https://www.pcloud.com/'
   version '3.11.6'
 
