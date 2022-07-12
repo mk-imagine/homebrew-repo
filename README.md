@@ -5,7 +5,7 @@ A tap for homebrew to install pCloud Drive on Mac.
 ## Install
 
 ```bash
-brew install --cask tomgross/pcloud/pcloud
+brew install --cask mkim/homebrew-pcloud-m1/pcloud-m1
 ```
 
 ## Updating
@@ -13,7 +13,7 @@ brew install --cask tomgross/pcloud/pcloud
 1. Get key
 
 ```bash
-echo `curl -s https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html\?download\=mac | grep "'Mac':" | sed "s/[ ,:']*//g;s/Mac//g" | tr -d '\t'`
+echo `$(curl -s https://www.pcloud.com/how-to-install-pcloud-drive-mac-os-m1.html\?download\=macm1 | grep "'Mac M1':" | sed "s/[ ,:']*//g;s/MacM1//g" | tr -d '\t')`
 ```
 
 2. Download latest pkg Version from https://www.pcloud.com/de/how-to-install-pcloud-drive-mac-os.html
@@ -21,7 +21,7 @@ echo `curl -s https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html\?do
 3. Calculate SHA256 sum
 
 ```bash
-shasum -a 256 pCloud\ Drive\ 3.9.10.pkg
+shasum -a 256 pCloud\ Drive\ 3.11.6\ macFUSE.pkg
 ```
 
 4. Update values (*version*, *sha256*, *code*, *pkg*) in cask formula
