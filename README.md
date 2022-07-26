@@ -9,7 +9,7 @@ brew tap mkim797/repo
 
 ## Program(s)
 
-pCloud Drive v3.11.7 macFUSE (Apple Silicon) or pCloud Drive v3.11.6 (Intel/AMD)
+pCloud Drive v3.11.7 macFUSE (Apple Silicon) or pCloud Drive v3.11.6 (Intel)
 ```bash
 brew install --cask pcloud-drive
 ```
