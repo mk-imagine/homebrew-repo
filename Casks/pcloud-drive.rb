@@ -2,7 +2,7 @@ cask 'pcloud-drive' do
   name 'pCloud Drive'
   desc 'Utilities to mount and manage pCloud drive on local computer'
   homepage 'https://www.pcloud.com/'
-  version '3.11.6'
+  version '3.11.7'
 
   if Hardware::CPU.intel?
     arch = "Mac"
@@ -11,8 +11,8 @@ cask 'pcloud-drive' do
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html?download=mac"
   else
     arch = "MacM1"
-    sha256 '543d580d94bd9869d1c457563102132efa8db2205f1ecab98de92c5e65ff4e9d'
-    pkg 'pCloud Drive 3.11.6 macFUSE.pkg'
+    sha256 '07d063d7a2868832e633d257a6243642224d6c32e7faff6fd64a911f0079dc07'
+    pkg 'pCloud Drive 3.11.7 macFUSE.pkg'
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os-m1.html?download=macm1"
   end
 
