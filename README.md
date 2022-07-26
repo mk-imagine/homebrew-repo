@@ -4,7 +4,7 @@ A tap for homebrew; this tap contains programs that were deemed too difficult to
 
 Tap this repo:
 ```bash
-brew tap /mkim797/repo
+brew tap mkim797/repo
 ```
 
 ## Program(s)
