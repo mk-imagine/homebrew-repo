@@ -1,6 +1,6 @@
-# My homebrew tap
+# Homebrew Tap
 
-A tap for homebrew; this tap contains programs that were deemed too difficult to maintain as part of the main homebrew tap.
+A tap for homebrew; this tap contains programs that were rejected as official homebrew formulae because they were deemed too difficult to maintain.
 
 Tap this repo:
 ```bash
