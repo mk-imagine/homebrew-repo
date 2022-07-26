@@ -13,3 +13,7 @@ pCloud Drive v3.11.7 macFUSE (Apple Silicon) or pCloud Drive v3.11.6 (Intel)
 ```bash
 brew install --cask pcloud-drive
 ```
+
+## Credits
+
+Base formula comes from: https://github.com/tomgross/homebrew-pcloud
