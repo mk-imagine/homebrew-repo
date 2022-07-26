@@ -6,5 +6,5 @@ A tap for homebrew.
 
 pCloud Drive Install
 ```bash
-brew tap /mkim797/homebrew-pcloud https://github.com/mkim797/homebrew-pcloud | brew install --cask pcloud-drive
+brew tap /mkim797/repo brew install --cask pcloud-drive
 ```
