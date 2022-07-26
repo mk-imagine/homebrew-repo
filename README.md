@@ -2,11 +2,14 @@
 
 A tap for homebrew; this tap contains programs that were deemed too difficult to maintain as part of the main homebrew tap.
 
+Tap this repo:
+```bash
+brew tap /mkim797/repo
+```
+
 ## Program(s)
 
-### pCloud Drive
-
-pCloud Drive Install
+pCloud Drive
 ```bash
-brew tap /mkim797/repo brew install --cask pcloud-drive
+brew install --cask pcloud-drive
 ```
