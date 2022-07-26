@@ -1,7 +1,7 @@
 #
 # Cask:: pcloud-drive
 # Recipe:: default
-# Authors:: Mark Kim
+# Authors:: Mark Kim, Tom Gross
 #
 # Copyright:: © 2022,  Mark Kim
 # License:: GPLv3.0
