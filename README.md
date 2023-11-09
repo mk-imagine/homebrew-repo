@@ -4,7 +4,7 @@ This tap contains pCloud Drive, which was rejected as an official homebrew formu
 
 Tap this repo:
 ```bash
-brew tap mkim797/repo
+brew tap mk-imagine/repo
 ```
 
 ## Program(s)
