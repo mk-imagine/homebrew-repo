@@ -34,7 +34,7 @@ cask "pcloud-drive" do
     arch = "MacM1"
     sha256 "7e223e7a9252119cfa18c256d77696b17cad69efd1bde6a0457b337fea8eda8f"
     pkg "pCloud Drive #{version.to_s} macFUSE.pkg"
-    dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os-m1.html?download=macm1"
+    dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1"
   end
 
   url do
