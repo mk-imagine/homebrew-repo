@@ -9,7 +9,7 @@ brew tap mk-imagine/repo
 
 ## Program(s)
 
-pCloud Drive v3.11.7 macFUSE (Apple Silicon) or pCloud Drive v3.11.6 (Intel)
+pCloud Drive v3.14.2 macFUSE (Apple Silicon) or pCloud Drive v3.14.2 (Intel)
 ```bash
 brew install --cask pcloud-drive
 ```
