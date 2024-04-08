@@ -24,16 +24,16 @@ cask "pcloud-drive" do
   homepage "https://www.pcloud.com/"
 
   if Hardware::CPU.intel?
-    version "3.14.2"
+    version "3.14.3"
     arch = "Mac"
-    sha256 "f56e5e5827c099d0730d3a938ce0414985528286983fb8e81f759ab804f72040"
-    pkg "pCloud Drive #{version.to_s}.pkg"
+    sha256 "462495d3277f08b0682d66e0c8e0fe7e9e1af980d3ff34eaf58211b6b3037957"
+    pkg "pCloud Drive #{version.to_s} UNIVERSAL.pkg"
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html?download=mac"
   else
-    version "3.14.2"
+    version "3.14.3"
     arch = "MacM1"
-    sha256 "aa083223df1076849f52d90e9abd9567dc57e0492bda2410da165f532a0cb622"
-    pkg "pCloud Drive #{version.to_s} macFUSE.pkg"
+    sha256 "462495d3277f08b0682d66e0c8e0fe7e9e1af980d3ff34eaf58211b6b3037957"
+    pkg "pCloud Drive #{version.to_s} UNIVERSAL.pkg"
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1"
   end
 
