@@ -27,13 +27,13 @@ cask "pcloud-drive" do
     version "3.15.0"
     arch = "Mac"
     sha256 "8ab66d9bb56a00076c9c466200d4e4b7e6c7ee2e13658e87e090e6de44eed01d"
-    pkg "pCloud Drive #{version.to_s} UNIVERSAL.pkg"
+    pkg "pCloud%20Drive%20#{version.to_s}%20UNIVERSAL.pkg"
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-mac-os.html?download=mac"
   else
     version "3.15.0"
     arch = "MacM1"
     sha256 "8ab66d9bb56a00076c9c466200d4e4b7e6c7ee2e13658e87e090e6de44eed01d"
-    pkg "pCloud Drive #{version.to_s} UNIVERSAL.pkg"
+    pkg "pCloud%20Drive%20#{version.to_s}%20UNIVERSAL.pkg"
     dlUrl = "https://www.pcloud.com/how-to-install-pcloud-drive-apple-silicon.html?download=macm1"
   end
 
