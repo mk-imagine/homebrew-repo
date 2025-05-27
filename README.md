@@ -9,11 +9,12 @@ brew tap mk-imagine/repo
 
 ## Program(s)
 
-pCloud Drive v3.15.5 UNIVERSAL
+pCloud Drive v3.15.7 UNIVERSAL
 ```bash
 brew install --cask pcloud-drive
 ```
 
 ## Credits
 
-Base formula comes from: https://github.com/tomgross/homebrew-pcloud
+Initially adapted from: https://github.com/tomgross/homebrew-pcloud
+Complete refactor no longer uses any of the adapted code.
