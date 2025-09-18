@@ -9,7 +9,7 @@ brew tap mk-imagine/repo
 
 ## Program(s)
 
-pCloud Drive v3.15.7 UNIVERSAL
+pCloud Drive v4.0.0 UNIVERSAL
 ```bash
 brew install --cask pcloud-drive
 ```
