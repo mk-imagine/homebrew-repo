@@ -1,6 +1,6 @@
 cask "pcloud-drive" do
-  version "4.0.0"
-  sha256 "51e902455e491a48c891bcd61a355de65fe67453a6f4b04342cf3eebefb55874"
+  version "4.0.6"
+  sha256 "e973f77d2ef32644e280493b949ce9c04513ea7978e6b66fbb602673ba881ce5"
 
   class PcloudDriveDownloadLogicStrategy < CurlDownloadStrategy
     def fetch(timeout: nil, **_options)
