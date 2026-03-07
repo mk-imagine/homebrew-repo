@@ -13,8 +13,3 @@ pCloud Drive v4.0.6 UNIVERSAL
 ```bash
 brew install --cask pcloud-drive
 ```
-
-## Credits
-
-Initially adapted from: https://github.com/tomgross/homebrew-pcloud<br>
-Complete refactor no longer uses any of the adapted code.
