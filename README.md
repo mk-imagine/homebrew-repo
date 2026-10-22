@@ -1,15 +1,10 @@
-# pCloud Drive Homebrew Tap
+# pCloud Drive Homebrew Tap (moved)
 
-This tap contains pCloud Drive, which was rejected as an official homebrew formula because it were deemed too difficult to maintain, so this tap will be maintained by me personally.
+This tap has moved to **[mk-imagine/homebrew-tap](https://github.com/mk-imagine/homebrew-tap)**. This repo is archived and no longer updated.
 
-Tap this repo:
 ```bash
-brew tap mk-imagine/repo
+brew tap mk-imagine/tap
+brew install --cask mk-imagine/tap/pcloud-drive
 ```
 
-## Program(s)
-
-pCloud Drive v4.3.3 UNIVERSAL
-```bash
-brew install --cask pcloud-drive
-```
+If you already have `mk-imagine/repo` tapped, run `brew update`. Homebrew follows the redirect in `tap_migrations.json` and reinstalls `pcloud-drive` from the new tap. Then remove the old tap with `brew untap mk-imagine/repo`.
